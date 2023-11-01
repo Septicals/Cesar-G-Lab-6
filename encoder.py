@@ -53,7 +53,6 @@ def decoder(encoded_pass):
             decoded_pass+='5'
         elif i == '9':
             decoded_pass+='6'
-
     return decoded_pass
 
 
@@ -81,3 +80,5 @@ if __name__ == '__main__':
 
         if Select == 3:
             exit()
+
+
